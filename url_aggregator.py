@@ -28,7 +28,7 @@ for item in csv_data:
 sorted_keys = sorted(aggregate_dict, key=aggregate_dict.get, reverse=True)
 
 csv_columns = ['Page','Sessions']
-output_file = "aggregated_sessions_per_page"
+output_file = "aggregated_sessions_per_page.csv"
 
 with open(output_file, 'w') as output_file:
     writer = csv.DictWriter(output_file, fieldnames=csv_columns)
