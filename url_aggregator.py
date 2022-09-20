@@ -2,19 +2,18 @@ import csv
 import pandas as pd
 from pathlib import Path
 
-#user input
+#get file path
 path_to_import =input("\n Drop Google Analytics Report CSV here: ")
-metric = input("\n What metric do you want to sort by? ")
+path_to_import = path_to_import.replace('\'', '').replace('"','') #handle terminal wrapping file paths in strings
 
-#handle potential error of case sensitivity
-path_to_import = path_to_import.replace('\'', '').replace('"','')
-metric = metric[0].upper() + metric[1:]
+#get metric to sort pages
+metric = input("\n What metric do you want to sort by? ")
+metric = metric[0].upper() + metric[1:] # handle case-sensitive user input
 
 #choose column from Analytics CSV based on user input and turn into dictionary
 col_names = ['Page', metric]
 csv_dict =  pd.read_csv(path_to_import, header= 5, usecols=col_names).to_dict(orient='split')
 csv_data = csv_dict['data']
-
 
 aggregate_dict = {}
 
