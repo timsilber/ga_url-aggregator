@@ -1,6 +1,7 @@
 import csv
 import pandas as pd
 from pathlib import Path
+import time 
 
 #get file path
 path_to_import =input("\n Drop Google Analytics Report CSV here: ")
@@ -41,7 +42,7 @@ sorted_keys = sorted(aggregate_dict, key=aggregate_dict.get, reverse=True)
 
 #write data to CSV output on Desktop
 csv_columns = ['Page', metric]
-output_file = str(Path.home() / "Downloads") + "/aggregated_" + metric.lower() + "_per_page.csv"
+output_file = str(Path.home() / "Downloads") + "/" + time.strftime('%Y-%m-%d') + "_aggregated_" + metric.lower() + "_per_page.csv"
 with open(output_file, 'w') as output_file:
     writer = csv.DictWriter(output_file, fieldnames=csv_columns)
     writer.writeheader()
