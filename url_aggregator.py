@@ -35,14 +35,9 @@ def dataframe_to_dict(dataframe):
     
     return aggregate_dict
 
-def sort_dict_by_value(dict):
+def sorted_dict_to_csv(dict, columns):
     #sort dictionary by pageviews
     sorted_keys = sorted(dict, key=dict.get, reverse=True)
-    for key in sorted_keys:
-        print(key, dict[key])
-    return sorted_keys
-
-def sorted_dict_to_csv(sorted_keys, dict, columns):
     #write data to CSV output on Desktop
     output_file = str(Path.home() / "Downloads") + "/" + time.strftime('%Y-%m-%d') + "_aggregated_" + columns[1].lower() + "_per_page.csv"
     with open(output_file, 'w') as output_file:
@@ -65,7 +60,5 @@ if __name__ == "__main__":
 
     df = csv_to_dataframe(path_to_import, col_names)
     csv_dict = dataframe_to_dict(df)
-    sorted_dict = sort_dict_by_value(csv_dict)
-
-    sorted_dict_to_csv(sorted_dict, csv_dict, col_names)
+    sorted_keys = sorted_dict_to_csv(csv_dict, col_names)
     
