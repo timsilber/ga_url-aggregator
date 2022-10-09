@@ -137,17 +137,17 @@ def print_top_fives(csv_dict, integrations_dict):
     
     sort_keys = get_sort_keys(integrations_dict)
     top_five_integrations = {k: integrations_dict[k] for k in list(sort_keys)[:5]}
-    print("Top five integrations: ")
+    print("Top five integrations:\n")
     for item in top_five_integrations:
             print(item, top_five_integrations[item])
     print("\n")
 
 if __name__ == "__main__":
-    #get file path
+    #get Analytics CSV file path
     path_to_import =input("\nDrop Google Analytics Report CSV here: \n\n    ")
     path_to_import = path_to_import.replace('\'', '').replace('"','') #handle terminal wrapping file paths in strings
 
-    #get metric to sort pages
+    #get metric to sort articles
     metric = input("\nWhat metric do you want to sort by? \n\n    ")
     metric = metric[0].upper() + metric[1:].lower() # handle case-sensitive user input
     col_names = ['Page', metric]
