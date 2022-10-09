@@ -13,3 +13,11 @@ Our CMS can serve two URLs for the same article, following the format `/docs/{ar
 Our CMS serves all articles off of the root directory (`/docs/{article}`), rather than using directories as path parameters (`/docs/{category}/{article}`). As a result, there is no easy way to total traffic per category, such as the total documentation traffic to a specific integration. Additionally, some categories have several levels of nesting, making a recursive solution preferred.
 
 GAAA calls our CMS's category API, then recursively parses the response JSON to determine the relationships between articles in parent categories and child categories. These relationships are then mapped onto the aggregated article data, then recursively totaled to get integration-level data. The sorted, aggregated integration data is exported to a CSV in the Downloads folder.
+
+## Using GAAA
+
+To run this script, you must have a Document360 API key with read permissions assigned to a variable called `PROJECT_API_KEY` in your .env file.
+
+Run url_aggregator.py the terminal, drag and drop your CSV file, then enter your sort metric. 
+
+Two CSVs are exported to your Downloads folder. The top five articles and top five integrations based on your sort criteria are printed directly in the terminal.
