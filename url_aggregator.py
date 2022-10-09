@@ -101,7 +101,7 @@ def parse_IA(parent_categories, dict, flattened = {}):
     
 def sum_dict_recursive(data):
         sum = 0
-        for key, value in data.items():
+        for _, value in data.items():
             if isinstance(value, dict):
                 sum += sum_dict_recursive(value)
             else:
