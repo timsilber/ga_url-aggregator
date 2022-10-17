@@ -7,7 +7,7 @@ import os
 from dotenv import load_dotenv
 import requests
 
-load_dotenv()
+load_dotenv() #make sure you have python-dotenv installed, your .env is in the root directory and has PROJECT_API_KEY defined
 
 def csv_to_dataframe(csv_path, columns):
     #choose column from Analytics CSV based on user input and turn into dictionary
