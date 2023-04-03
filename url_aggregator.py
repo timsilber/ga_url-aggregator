@@ -38,6 +38,9 @@ def dataframe_to_dict(dataframe):
                 aggregate_dict[slug] = aggregate_dict[slug] + sessions #if matching slug, add metric to existing data
         except:
             continue
+
+    # for line in aggregate_dict:
+    #     print(line, aggregate_dict[line])
     
     return aggregate_dict
 
@@ -68,34 +71,34 @@ def call_API():
     response = requests.request("GET", url, headers=headers, data=payload)
     
     response_json = response.json()
-    integrations_IA = response_json["data"]["child_categories"]
+    integrations_IA = response_json["data"]
 
     return integrations_IA
 
-def parse_IA(parent_categories, dict, flattened = {}):
+def parse_IA(data, dict, flattened = {}):
 
-    for category in parent_categories:
+    child_articles = data["articles"]
 
-        if category["hidden"]:
+    for article in child_articles:
+        if article["hidden"]:
             continue
-
-        flattened[category["name"]] = {} # creates a dict entry for each parent category
-        parent_dict = flattened[category["name"]]
-        # print(parent_dict)
-
-        child_categories = category["child_categories"]
-
-        for article in category["articles"]:
-            if article["slug"] not in dict:
-                continue
-
+        if article["slug"] not in dict:
+            continue
+        else:
+            article_title = article["title"]
             article_value = dict[article["slug"]]
-            parent_dict[article["title"]] = article_value
-            # print(category["name"], article["slug"], dict[article["slug"]])
+            flattened[article_title] = article_value
+            # print(article_title, article_value)
 
-        if child_categories:
-            parse_IA(child_categories, dict,  parent_dict)
-            # print("\n", "\n", category["name"], "\n", "\n")
+    if "child_categories" in data:
+
+        for category in data["child_categories"]:
+            if category["hidden"]:
+                continue
+            parent_category = category["name"]
+            flattened[parent_category] = {}
+            parent_dict = flattened[parent_category]
+            parse_IA(category, dict, parent_dict)
 
     return flattened
     
@@ -113,11 +116,10 @@ def sum_nested_dict(nested_dict):
     output_dict = {}
 
     for item in nested_dict:
-        for sub_item in nested_dict[item]:
-            if not isinstance(nested_dict[item][sub_item], dict):
-                output_dict[sub_item] = nested_dict[item][sub_item]
-            else: 
-                output_dict[sub_item] = sum_dict_recursive(nested_dict[item][sub_item])
+        if not isinstance(nested_dict[item], dict):
+            output_dict[item] = nested_dict[item]
+        else: 
+            output_dict[item] = sum_dict_recursive(nested_dict[item])
     
     return output_dict
 
@@ -146,11 +148,13 @@ if __name__ == "__main__":
     #get Analytics CSV file path
     path_to_import =input("\nDrop Google Analytics Report CSV here: \n\n    ")
     path_to_import = path_to_import.replace('\'', '').replace('"','') #handle terminal wrapping file paths in strings
+    # path_to_import = 'test/today_demo.csv'
 
     #get metric to sort articles
     metric = input("\nWhat metric do you want to sort by? \n\n    ")
     metric = metric[0].upper() + metric[1:].lower() # handle case-sensitive user input
     col_names = ['Page', metric]
+    # col_names = ['Page', 'Sessions']
 
     #sort aggregated article data and export to CSV
     df = csv_to_dataframe(path_to_import, col_names)
@@ -161,9 +165,9 @@ if __name__ == "__main__":
     data = call_API()
     integrations_dict = sum_nested_dict(parse_IA(data, csv_dict))
 
-    #sort integration data and export to CSV
+    # sort integration data and export to CSV
     dict_to_sorted_csv(integrations_dict, ['Integration', 'Sessions'])
 
-    #print top 5 articles and integrations
+    # print top 5 articles and integrations
     print_top_fives(csv_dict, integrations_dict)
 

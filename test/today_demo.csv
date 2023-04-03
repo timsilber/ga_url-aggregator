@@ -1,0 +1,584 @@
+# ----------------------------------------
+# All Web Site Data
+# Traffic by Individual Pages
+# 20230301-20230331
+# ----------------------------------------
+
+Page,Users,Sessions,Pageviews,Organic Searches
+/,422,"1,014","1,907",42
+/docs/g2-badges,392,484,981,150
+/docs/widgets,292,390,829,96
+/docs/track-your-prospects,290,532,"1,066",43
+/docs/get-started-with-g2,249,438,"1,537",12
+/docs/product-information,219,246,541,52
+/docs/buyer-intent,198,270,614,56
+/docs/integrations,160,311,"1,315",6
+/docs/leads,148,213,396,15
+/docs/review-activity,144,155,330,14
+/docs/linkedin-matched-audiences,140,191,399,9
+/docs/review-campaigns,132,159,318,71
+/docs/example-notification-2-send-emails-to-salesforce-lead-owners-for-g2-buyer-intent-signals,131,147,251,89
+/docs/implementation-in-app-g2-review,118,234,505,15
+/docs/basics-of-in-app-review-prompts,116,130,436,17
+/docs/add-dashboards-to-salesforce-home-page-layouts,104,105,199,87
+/docs/reference-pages,104,170,344,21
+/docs/slack,99,134,288,6
+/docs/g2-hubspot-implementation,96,125,311,13
+/docs/basics-of-the-g2-hubspot-integration,94,125,398,2
+/docs/campaign-dashboard,87,98,248,8
+/docs/basics-of-the-g2-crm-connector-for-salesforce,86,55,417,12
+/docs/basics-of-the-g2-pendo-integration,84,118,376,13
+/docs/g2-deals,84,84,173,22
+/docs/custom-questions,79,125,235,16
+/docs/crowd-quotes,73,88,168,8
+/docs/mapping-g2-buyer-intent-data-to-salesforce-accounts-and-leads,72,64,265,17
+/docs/features,71,93,196,5
+/docs/g2-pendo-implementation,68,85,167,1
+/docs/report-library,67,64,288,1
+/docs/interactive-demo,66,68,135,30
+/docs/hubspot-webhook,62,73,151,12
+/docs/linkedin-sales-navigator,61,59,126,1
+/docs/g2-salesforce-connector-implementation,59,67,187,5
+/docs/zoominfo,59,64,146,8
+/docs/market-intelligence,58,65,149,21
+/docs/competitors,57,67,137,4
+/docs/g2-marketo-implementation,55,69,160,10
+/docs/product-suites,54,88,179,19
+/g2/docs/zoominfo,53,73,114,0
+/docs/packages-pricing,51,40,102,11
+/docs/screenshots,49,59,116,13
+/docs/g2-6sense-implementation,48,43,170,2
+/docs/chili-piper,46,47,106,9
+/docs/discussions,46,52,109,2
+/docs/g2-buyer-intent-data-hubspot,44,63,171,2
+/g2/docs/hubspot-webhook,38,40,108,0
+/docs/example-task-assign-a-task-to-salesforce-account-owners-for-newly-mapped-accounts,36,38,70,27
+/docs/basics-of-the-g2-marketo-integration,35,43,154,3
+/docs/references-from-reviews,35,38,69,0
+/docs/four-pre-built-salesforce-reports,34,46,101,4
+/docs/snowflake,33,39,140,3
+/docs/single-sign-on,32,43,104,12
+/docs/understanding-example-notifications,32,44,111,7
+/docs/salesforce-crm-webhook,31,31,64,7
+/g2/docs/interactive-demo,31,38,70,0
+/g2/docs/g2-buyer-intent-data-hubspot,30,22,68,11
+/docs/example-notification-1-send-email-to-salesforce-account-owners-when-products-are-being-compared,27,39,69,9
+/docs,26,22,88,0
+/docs/about-g2-integrations,26,22,63,0
+/docs/documents,26,28,52,2
+/docs/profile-activity,26,22,47,2
+/docs/build-6sense-segments-using-g2-buyer-intent,24,31,64,9
+/docs/create-hubspot-workflows-with-g2-data,24,21,64,0
+/docs/g2-buyer-intent-salesforce-tab,24,12,67,4
+/docs/notifications,24,12,40,0
+/docs/release-notes,24,46,96,5
+/docs/downloads,22,21,42,0
+/g2/docs/implementation-in-app-g2-review,22,20,69,0
+/g2/docs/g2-salesforce-connector-implementation,21,23,59,5
+/g2/docs/leads,21,9,37,0
+/g2/docs/market-intelligence,21,23,76,0
+/docs/g2-buyer-intent-data-marketo,18,21,48,3
+/g2/docs/salesforce-crm-webhook,18,12,34,0
+/g2/docs/prompt-guidelines,17,9,49,3
+/docs/basics-of-the-g2-medallia-integration,16,11,58,1
+/docs/ethics-values,16,18,77,5
+/docs/g2-buyer-intent-data-and-6sense,16,12,39,3
+/docs/build-custom-salesforce-reports-with-g2-data,15,10,31,1
+/docs/delighted,14,11,31,0
+/docs/g2-api-information,14,11,28,1
+/docs/g2-bombora-integration,14,10,24,5
+/docs/g2-medallia-implementation,14,16,34,0
+/g2/docs/g2-marketo-implementation,14,5,29,1
+/docs/en/buyer-intent,13,6,21,0
+/docs/g2-buyer-intent-data-demandbase,13,6,23,2
+/docs/g2-salesforce-tabs,13,12,66,0
+/docs/g2-visualforce-page,13,10,35,3
+/docs/insert-a-g2-star-rating-widget-in-a-hubspot-email,13,13,25,9
+/docs/overview-g2-hubspot-lists,13,10,40,1
+/docs/preparing-for-implementation-1,13,7,31,0
+/docs/prompt-guidelines,13,33,86,2
+/docs/videos,13,18,31,0
+/g2/docs/example-report-1-g2-buyer-intent-activity-by-salesforce-account,13,6,37,0
+/g2/docs/g2-custom-objects-and-fields,13,2,43,0
+/g2/docs/reference-pages,13,12,25,0
+/docs/example-report-9-g2-review-questions-and-answers,12,11,23,8
+/docs/g2-custom-report-types,12,8,37,1
+/docs/g2-demandbase-implementation,12,9,33,0
+/g2/docs/chili-piper,12,16,26,0
+/g2/docs/product-information,12,2,15,0
+/docs/snowflake-buyer-intent-data-dictionary,11,3,28,1
+/docs/en/track-your-prospects,10,5,17,1
+/docs/g2-custom-objects-and-fields,10,4,44,1
+/docs/what-is-covered-in-this-integration-guide-and-what-is-not-1,10,11,49,0
+/docs/whats-covered-in-this-integration-guide-and-whats-not-1,10,7,60,0
+/docs/canva,9,2,15,0
+/docs/example-notification-4-chatter-notification-for-salesforce-account-owners-when-a-g2-comparison-page-is-viewed,9,11,31,0
+/docs/insert-a-g2-badge-in-a-hubspot-website-page-or-landing-page,9,6,15,5
+/g2/docs/delighted,9,16,26,0
+/docs/adding-g2-data-to-salesforce-page-layouts,8,4,33,1
+/docs/basics-of-salesforce-integration,8,2,31,1
+/docs/en/basics-of-in-app-review-prompts,8,4,23,0
+/docs/marketo-lists-with-g2-data,8,7,25,1
+/docs/snowflake-reviews-data-dictionary,8,3,27,1
+/g2/docs/example-list-1-companies-with-recent-g2-buyer-intent-data,8,0,12,0
+/g2/docs/g2-6sense-implementation,8,4,17,0
+/g2/en,8,24,43,0
+/docs/basics-of-in-app-review-prompts-1,7,7,17,0
+/docs/custom-fields,7,5,16,2
+/docs/en/notifications,7,7,15,3
+/docs/example-list-3-associated-companies-making-direct-product-comparisons,7,9,15,0
+/docs/g2-review-attribution,7,14,25,0
+/docs/hubspot-list-companies-using-products-that-integrate-with-your-product,7,1,9,0
+/docs/insert-a-g2-star-rating-widget-in-a-hubspot-website-page-or-landing-page,7,5,14,4
+/docs/rollworks,7,2,10,0
+/g2/docs/basics-of-the-g2-crm-connector-for-salesforce,7,0,8,0
+/docs/2022-release-notes,6,3,10,1
+/docs/en/hubspot-webhook,6,3,20,0
+/docs/en/zoominfo,6,2,13,2
+/docs/example-list-1-companies-with-recent-g2-buyer-intent-data,6,2,23,0
+/docs/example-report-1-g2-buyer-intent-activity-by-salesforce-account,6,5,15,1
+/docs/g2-pipedrive-implementation,6,6,10,1
+/docs/insert-a-g2-grid-widget-in-a-hubspot-website-page-or-landing-page,6,6,9,3
+/docs/search?query=hubspot&searchType=articles,6,1,7,0
+/g2/docs/example-list-2-companies-with-g2-buyer-intent-data-and-no-contacts,6,2,18,0
+/g2/docs/review-campaigns,6,11,19,0
+/beta/docs/snowflake-query-sample,5,14,123,0
+/docs/create-marketo-smart-campaigns-with-g2-data,5,4,15,0
+/docs/create-salesforce-dashboards,5,5,9,3
+/docs/en/interactive-demo,5,4,14,2
+/docs/en/leads,5,1,7,0
+/docs/example-list-7-associated-companies-with-several-recent-g2-buyer-intent-signals,5,0,10,0
+/docs/example-workflow-1-assign-a-company-as-a-hubspot-target-account-based-on-g2-buyer-intent-activity,5,3,14,3
+/docs/g2-events,5,1,7,1
+/docs/g2-reference-builder,5,3,7,2
+/docs/g2-reviews,5,2,7,0
+/docs/g2-visiting-organizations,5,3,9,0
+/docs/hubspot-reports-g2-data,5,5,17,0
+/docs/list-of-g2-custom-objects,5,3,16,0
+/docs/salesforce-dashboards,5,3,12,0
+/g2/docs/custom-questions,5,0,20,0
+/g2/docs/example-workflow-3-notify-hubspot-company-owners-about-g2-buyer-intent-activity,5,1,8,0
+/g2/docs/example-workflow-7-use-a-contact-based-active-list-for-email-campaigns,5,2,8,0
+/g2/docs/g2-events,5,0,20,0
+/g2/docs/g2-hubspot-implementation,5,1,11,0
+/g2/docs/hubspot-emails-with-g2-marketing-content,5,1,14,0
+/g2/docs/list-of-g2-custom-objects,5,0,7,0
+/beta/docs/salesforce-getting-started-rewrite,4,3,22,0
+/beta/docs/salesforce-implementation-rewrite,4,8,24,0
+/docs/account-page-layouts,4,3,11,0
+/docs/en/g2-buyer-intent-data-demandbase,4,1,7,0
+/docs/en/g2-hubspot-implementation,4,1,6,0
+/docs/example-report-5-g2-buyer-intent-data-organized-by-salesforce-account-owner,4,4,7,3
+/docs/four-pre-built-salesforce-reports#utm_source=sales+enablement&utm_medium=web&utm_campaign=salesforce,4,7,12,0
+/docs/g2-leads-webhooks,4,3,8,0
+/docs/hubspot-score-and-g2-data,4,2,7,1
+/docs/insert-a-g2-badge-in-a-hubspot-email,4,4,9,3
+/docs/marketo-smart-campaigns-with-g2-data,4,1,10,0
+/docs/opportunity-page-layouts,4,3,8,3
+/docs/troubleshooting-and-support-1,4,2,6,1
+/docs/video-walkthrough-for-g2-visualforce-page-and-related-lists,4,3,30,0
+/g2/docs,4,5,29,0
+/g2/docs/example-list-1-associated-companies-with-several-g2-buyer-intent-signals,4,1,21,0
+/g2/docs/example-notification-1-send-email-to-salesforce-account-owners-when-products-are-being-compared,4,0,14,0
+/g2/docs/example-workflow-1-assign-a-company-as-a-hubspot-target-account-based-on-g2-buyer-intent-activity,4,0,21,0
+/g2/docs/g2-folders,4,0,4,0
+/g2/docs/snowflake,4,3,10,0
+/beta/docs,3,2,17,0
+/beta/docs/get-started-with-snowflake,3,15,70,0
+/docs/en/campaign-dashboard,3,1,5,0
+/docs/en/example-list-7-associated-companies-with-several-recent-g2-buyer-intent-signals,3,0,6,0
+/docs/en/g2-marketo-implementation,3,1,5,0
+/docs/en/hubspot-score-and-g2-data,3,0,8,0
+/docs/en/linkedin-matched-audiences,3,0,3,0
+/docs/en/slack,3,1,4,0
+/docs/example-list-12-companies-with-a-buyer-from-a-specific-location,3,3,16,0
+/docs/example-notification-3-send-email-to-customer-success-team-for-g2-reviews-with-low-scores,3,2,12,0
+/docs/example-workflow-2-email-campaigns-to-target-specific-g2-buyer-intent-activity,3,2,5,2
+/docs/example-workflow-5-perform-sales-qualification-based-on-g2-buyer-intent-activity,3,4,10,0
+/docs/hubspot-list-companies-to-add-to-a-nurture-campaign,3,0,8,0
+/docs/lead-page-layouts,3,3,8,0
+/docs/marketo-programs-with-g2-data-and-marketing-content,3,2,7,0
+/docs/overview-6,3,1,5,0
+/docs/search?query=reviews&searchType=articles,3,0,3,0
+/docs/search?query=salesloft&searchType=articles,3,0,5,0
+/docs/search?query=zoominfo&searchType=articles,3,0,3,0
+/g2/docs/example-report-2-all-leads-and-the-related-g2-events,3,0,3,0
+/g2/docs/example-report-4-product-comparisons,3,0,3,0
+/g2/docs/example-report-5-g2-buyer-intent-data-organized-by-salesforce-account-owner,3,1,9,0
+/g2/docs/example-report-6-mapped-salesforce-accounts-with-opportunities,3,1,6,0
+/g2/docs/example-workflow-2-email-campaigns-to-target-specific-g2-buyer-intent-activity,3,0,3,0
+/g2/docs/example-workflow-4-create-tasks-for-company-owners-based-on-g2-buyer-intent-activity,3,1,5,0
+/g2/docs/example-workflow-5-perform-sales-qualification-based-on-g2-buyer-intent-activity,3,2,7,0
+/g2/docs/g2-api-information,3,3,8,3
+/g2/docs/g2-badges,3,0,3,0
+/g2/docs/g2-review-attribution,3,1,7,0
+/g2/docs/linkedin-matched-audiences,3,1,4,0
+/Reference Pages - Marketing Content.html,3,0,0,0
+/beta/docs/mi,2,1,3,0
+/docs/chili-piper#utm_medium=video&utm_campaign=chili+piper,2,2,5,0
+/docs/create-marketo-lists-with-g2-data,2,1,6,0
+/docs/en/2022-release-notes,2,0,13,0
+/docs/en/downloads,2,0,6,0
+/docs/en/g2-badges,2,0,2,0
+/docs/en/g2-deals,2,2,4,0
+/docs/en/g2-reviews,2,0,6,0
+/docs/en/mapping-g2-buyer-intent-data-to-salesforce-accounts-and-leads,2,0,3,0
+/docs/en/review-activity,2,8,15,0
+/docs/en/review-campaigns,2,0,2,0
+/docs/example-list-11-associated-companies-researching-your-product-category-recently,2,1,4,1
+/docs/example-list-9-associated-companies-making-direct-product-comparisons-recently,2,3,9,0
+/docs/example-report-6-mapped-salesforce-accounts-with-opportunities,2,1,10,0
+/docs/example-smart-campaign-2-notify-marketo-account-owners-about-first-time-g2-buyer-intent-activity,2,0,3,0
+/docs/example-workflow-3-notify-hubspot-company-owners-about-g2-buyer-intent-activity,2,1,4,0
+/docs/g2-folders,2,2,4,2
+/docs/insert-a-g2-grid-widget-in-a-marketo-landing-page-template,2,2,3,0
+/docs/insert-a-g2-star-rating-widget-in-a-marketo-landing-page-template,2,1,2,0
+/docs/leads?=,2,2,2,0
+/docs/marketo-landing-pages-with-g2-marketing-content,2,1,2,0
+/docs/overview-g2-marketo-lists,2,0,3,0
+/docs/salesforce-implementation,2,2,56,0
+/docs/salesforce-tasks,2,1,7,0
+/docs/search?query=api&searchType=articles,2,0,2,0
+/docs/search?query=buyer engagement score&searchType=articles,2,0,3,0
+/docs/search?query=cognism&searchType=articles,2,0,2,0
+/docs/search?query=cta&searchType=articles,2,0,2,0
+/docs/search?query=hubspot leads&searchType=articles,2,1,2,0
+/docs/search?query=in-app&searchType=articles,2,0,2,0
+/docs/search?query=interactive demo&searchType=articles,2,0,2,0
+/docs/search?query=marketo&searchType=articles,2,0,2,0
+/docs/search?query=metadata&searchType=articles,2,1,3,0
+/docs/search?query=outreach integration&searchType=articles,2,0,2,0
+/docs/search?query=outreach&searchType=articles,2,0,2,0
+/docs/search?query=pendo&searchType=articles,2,0,2,0
+/docs/search?query=salesforce connector&searchType=articles,2,0,2,0
+/docs/search?query=slack&searchType=articles,2,0,2,0
+/docs/search?query=track your prospects&searchType=articles,2,0,3,0
+/docs/search?query=video review&searchType=articles,2,0,3,0
+/docs/slack-2,2,1,2,0
+/g2/docs/crowd-quotes,2,4,8,0
+/g2/docs/custom-fields,2,0,12,0
+/g2/docs/example-list-3-companies-that-have-viewed-your-g2-product-profile-page-recently,2,0,3,0
+/g2/docs/example-list-4-companies-making-direct-product-comparisons-recently,2,0,5,0
+/g2/docs/example-list-5-companies-assessing-product-alternatives-recently,2,0,5,0
+/g2/docs/example-list-6-companies-researching-your-product-category-recently,2,1,3,0
+/g2/docs/g2-leads-webhooks,2,0,3,0
+/g2/docs/g2-salesforce-tabs,2,0,4,0
+/g2/docs/get-started-with-g2,2,2,3,0
+/g2/docs/integrations,2,3,14,0
+/g2/docs/linkedin-matched-audiences?mkt_tok=NzE0LVpVRi02ODMAAAGKGUwgW5or-K3Rd_gUXz2WopR0DssJdwsflKNGWm3QCP-Qe4zkYN9w5x6JIvCfbAHI9aOa76-mN5YI4kXwRNREiziDufJlL5uorC1vysmr,2,7,12,0
+/g2/docs/overview-g2-hubspot-lists,2,0,2,0
+/g2/docs/review-activity,2,0,2,0
+/g2/docs/track-your-prospects,2,3,6,0
+/g2/docs/widgets,2,0,2,0
+/beta/docs/reference-pages,1,0,4,0
+/beta/docs/review-data-dictionary,1,0,6,0
+/beta/docs/review-management,1,0,1,0
+/docs/2021-release-notes,1,0,1,0
+/docs/discussions?=,1,1,1,0
+/docs/en/basics-of-the-g2-hubspot-integration,1,0,1,0
+/docs/en/basics-of-the-g2-marketo-integration,1,0,5,0
+/docs/en/basics-of-the-g2-pendo-integration,1,0,3,0
+/docs/en/build-6sense-segments-using-g2-buyer-intent,1,0,1,0
+/docs/en/build-custom-salesforce-reports-with-g2-data,1,0,1,0
+/docs/en/chili-piper,1,0,1,0
+/docs/en/create-hubspot-workflows-with-g2-data,1,0,1,0
+/docs/en/crowd-quotes,1,0,1,0
+/docs/en/custom-questions,1,0,1,0
+/docs/en/delighted,1,0,1,0
+/docs/en/example-list-1-associated-companies-with-several-g2-buyer-intent-signals,1,0,2,0
+/docs/en/example-list-10-associated-companies-assessing-product-alternatives-recently,1,0,2,0
+/docs/en/example-list-2-companies-with-g2-buyer-intent-data-and-no-contacts,1,1,1,0
+/docs/en/example-list-3-companies-that-have-viewed-your-g2-product-profile-page-recently,1,0,1,0
+/docs/en/example-list-4-companies-making-direct-product-comparisons-recently,1,0,1,0
+/docs/en/example-list-5-companies-assessing-product-alternatives-recently,1,0,1,0
+/docs/en/example-list-9-associated-companies-making-direct-product-comparisons-recently,1,0,1,0
+/docs/en/example-task-assign-a-task-to-salesforce-account-owners-for-newly-mapped-accounts,1,2,5,1
+/docs/en/example-workflow-3-notify-hubspot-company-owners-about-g2-buyer-intent-activity,1,0,1,0
+/docs/en/features,1,0,1,0
+/docs/en/g2-api-information,1,0,6,0
+/docs/en/g2-buyer-intent-data-marketo,1,0,1,0
+/docs/en/g2-buyer-intent-data-pipedrive,1,1,2,0
+/docs/en/g2-buyer-intent-salesforce-tab,1,1,3,0
+/docs/en/g2-pendo-implementation,1,0,5,0
+/docs/en/g2-pipedrive-implementation,1,0,1,0
+/docs/en/g2-salesforce-connector-implementation,1,0,1,0
+/docs/en/get-started-with-g2,1,0,2,0
+/docs/en/hubspot-reports-g2-data,1,1,2,0
+/docs/en/hubspot-website-and-landing-pages-with-g2-marketing-content,1,0,1,0
+/docs/en/insert-a-g2-badge-in-a-hubspot-website-page-or-landing-page,1,0,1,0
+/docs/en/integrations,1,0,1,0
+/docs/en/list-of-g2-custom-objects,1,0,1,0
+/docs/en/market-intelligence,1,0,1,0
+/docs/en/marketo-emails-with-g2-marketing-content,1,0,1,0
+/docs/en/marketo-lists-with-g2-data,1,0,1,0
+/docs/en/preparing-for-implementation-1,1,0,1,0
+/docs/en/product-information,1,1,2,0
+/docs/en/prompt-guidelines,1,0,1,0
+/docs/en/reference-pages,1,0,1,0
+/docs/en/release-notes,1,0,1,0
+/docs/en/report-library,1,0,1,0
+/docs/en/salesforce-crm-webhook,1,0,1,0
+/docs/en/salesforce-dashboards,1,0,1,0
+/docs/en/snowflake,1,0,1,0
+/docs/en/troubleshooting-and-support-1,1,0,2,0
+/docs/en/understanding-example-notifications,1,0,2,0
+/docs/en/widgets,1,0,1,0
+/docs/example-list-10-associated-companies-assessing-product-alternatives-recently,1,0,1,0
+/docs/example-list-3-companies-that-have-viewed-your-g2-product-profile-page-recently,1,0,1,0
+/docs/example-list-5-companies-assessing-product-alternatives-recently,1,1,2,0
+/docs/example-report-7-find-mapped-salesforce-accounts-with-many-g2-events,1,1,10,0
+/docs/example-smart-campaign-1-email-campaigns-to-target-specific-g2-buyer-intent-activity,1,0,1,0
+/docs/example-smart-campaign-3-perform-sales-qualification-based-on-g2-buyer-intent-activity,1,1,1,0
+/docs/example-workflow-4-create-tasks-for-company-owners-based-on-g2-buyer-intent-activity,1,1,9,0
+/docs/example-workflow-7-use-a-contact-based-active-list-for-email-campaigns,1,1,2,0
+/docs/g2-6sense-implementation?_x_tr_sl=en&_x_tr_tl=sr&_x_tr_hl=sr&_x_tr_pto=sc,1,1,1,0
+/docs/g2-buyer-intent-data-hubspot?mkt_tok=NzE0LVpVRi02ODMAAAGKGUwfPjAwPR4hvl651s3sskRB1Z3QqXHwqggXmL5tzR2OxsWi_GHVuTiaMmAVE2jsJtg1PgLXscDRzktxu9UwNiuklfXA_2NbJED-rtYY,1,1,2,0
+/docs/g2-buyer-intent-data-pipedrive,1,0,1,0
+/docs/g2-salesforce-configuration-assistant,1,0,1,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKgDMFaOl218RBgSDI-AWkK015TYiNc67P2wg0edlV0ys0DU8xy8VNeYtX2jPOGWDGva5STvjXMEjcS6MKepIGm24c-4TqY3_L7HUhsxAC,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKgDMFdAQnlWu7325U9cULEeZjSxLpY1XKKGo1sMWdTF1fWGIjZTW49smAbFsRyq0t9zr_tfPmh6uHdmrFp-Hii9maVbCVlrmuuqh8yQlD,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKgDMFdIjUVHcn5w98uCJ4cyTN-1f1kWh_Sd9gZjVvi5TXql-HlYkmiuQoqEsZd-ZbqmqGlvjWQgx_YFXTLtC7Oij9N6ya2QLmIhyltK9b,1,1,1,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKgDMFZE6zHO8BpWTNnbvNQINcfnkOrM0ZE4bTyej36wsbTdEBwq3GR3tVD3hLpp_6RwStXu1xT3_WMBt3Es5jLz9KYHOv_T_hFA-E1-eQ,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKpD-HjbYO5jr2lDknt-GcxV_CdRCZzYjcrGh9UOiYPFYK9Sn7n3s_JgyI3XOOKpTyxwdSGjeRdNEwNSloY-4vqS5xjARe-BTVpPUlE60k,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKpD-HkXPS6YncMs4iyGMvAdbUs8mZTwzQl02X85DucEbJ2e-B7A4aJLem_1KUhREr3_RJl86SMwmXrOBqDlC0Pec0C0JfCQ64DIjmQ_d1,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKXF1sac7Xq8g5GvhTd1KIpdxv9EpKGxEkngIUJMvs211rmGc3UbTQxsenV_D0Ib9NQS3BetPkyP2a2m3fwX6QUtZXwA_3eAP7qx-yjAtA,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKXF1saMk7Ug5U_6sTmn1bIyWPf-LYyWSiZlllKYnfWzT99LxvXx19DrYlx9-e2Fvnihel_m-5MarKfSSMaMGrJiK0oSiGo4xd_Uqaudb9,1,1,6,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKXF1saUH6_xj01kNOPKvFum0m-3tJ5MJu8_BzUlZPJy8EEPfl3H6pay2Y08LnA1dQ-3rgzGOGSQ-nqOxC6s1DcqAlozyGjexEvNCP4dRZ,1,1,1,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKyEwKRoqO0ZqOo2rETvI_JEP0BR5vMKPzBBeHudx_VD48rT20QgRXYbVm9UpUjrbVpUkwC5jJ7BND5xljvD1a_4j89MyGc4DsFSFlJsaS,1,1,2,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKyEwKRxjvnjceyCdUYpvfPnFcPF1KPa21_InAEd26xT2gCz-fnpTE2keZIMq3okz4agO7-3PCIzEZyhd-u64YfI0gjATHDyqAFuIgjS3y,1,1,10,0
+/docs/get-started-with-g2?mkt_tok=NzE0LVpVRi02ODMAAAGKyEwKSaf5coYZmg5mPchi_PS0S1NsWr_fCLsLEsWSqutrkNJhFxouYcUtD7R1HF-wcqyBdfHwvBLYN9eg9UwNaSXEbMRpqZU1c1tUdyp8,1,1,2,0
+/docs/how-g2-buyer-intent-data-auto-maps-to-6sense,1,1,2,0
+/docs/hubspot-emails-with-g2-marketing-content,1,0,1,0
+/docs/hubspot-website-and-landing-pages-with-g2-marketing-content,1,2,2,0
+/docs/implementation-in-app-g2-review?delighted=test,1,0,1,0
+/docs/insert-a-g2-badge-in-a-marketo-landing-page-template,1,0,1,0
+/docs/marketo,1,0,0,0
+/docs/recommended-g2-related-list-column-selections-for-page-layouts,1,0,1,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKD0a663ugY2QMcW2RVBwq5VGuofAHvWtufz9n8tWF15qgl398KZyO4B0sdKycDw11Lt2BJC9rG5CZyqcCUA,1,2,3,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyD-5Kwl-7Eq6VbhrsUddfoJsUMFcC9PxJ2SJ0cEypI8mSf2qdn931miehGs6R5hx2E_hctL-yZIxhuhj-99jXjisw_afT03faeY7sUL6,1,1,2,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyD-5Ky5vGKrAMsZvRCx4eFsbRwe_m6hDQh8LHLiR5StziH3a0UvtkTuBZs2z8dw1WmGGc_zIctKeowurjClAEj2IEhCnZIwMN8JSsmcQ,1,1,1,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyD-ljrDDLAO1xksbUtpPKdw95t2DUnb98fHbu65YVJPM4ifh3JJF5UrMMC6Ur-C8djFcUJxtSaPXj38TPQ9nlxkT23Ldq0J3qCSPIOid,1,1,2,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyDCTZlO4QzaGVM1HJtWMBGdPPRN0WB_reuLkf9kFeGaMXlQAs1M9sKw4Sor30mP4jG2M46613Q60WxHETUhRc3fLWwvA9wNzOExjBdBG,1,1,2,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyDCTZqGVONim1T6A4nLBFX8itN2s96xJW7rq1K_HfAE047ualHRVxcV-mPha_aLE0yVsm2U1XoJwLuLBpq2S7JsSCbHYuNfiylv4c-JZ,1,0,1,0
+/docs/release-notes?mkt_tok=NzE0LVpVRi02ODMAAAGKyIr4rm6sSalHvYWoNh7PRCBzW9hDjaq1xvyV45nbmbH-qWOTeuGD34FPS8yLRTwGZ3xfFSJ0DqEQjiBaZb18qvvLGAmhZGYjIpIwzd1n,1,1,1,0
+/docs/review-campaigns?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=sc,1,1,1,1
+/docs/search?query=,1,0,1,0
+/docs/search?query=10408&searchType=articles,1,0,1,0
+/docs/search?query=50 reviews&searchType=articles,1,0,1,0
+/docs/search?query=6sense&searchType=articles,1,0,1,0
+/docs/search?query=acoustic&searchType=articles,1,0,1,0
+/docs/search?query=admin user&searchType=articles,1,0,1,0
+/docs/search?query=anonymous&searchType=articles,1,0,1,0
+/docs/search?query=api review&searchType=articles,1,0,1,0
+/docs/search?query=app source&searchType=articles,1,2,3,0
+/docs/search?query=AWS&searchType=articles,1,0,1,0
+/docs/search?query=bonus giftcards&searchType=articles,1,1,2,0
+/docs/search?query=buyer intent API&searchType=articles,1,0,1,0
+/docs/search?query=buyer intent notification&searchType=articles,1,0,1,0
+/docs/search?query=buyer intent score&searchType=articles,1,0,1,0
+/docs/search?query=buyer stage&searchType=articles,1,0,1,0
+/docs/search?query=buying activity&searchType=articles,1,0,1,0
+/docs/search?query=buying stage&searchType=articles,1,0,1,0
+/docs/search?query=categories&searchType=articles,1,0,1,0
+/docs/search?query=category&searchType=articles,1,0,2,0
+/docs/search?query=change product categories&searchType=articles,1,1,2,0
+/docs/search?query=changing product name&searchType=articles,1,0,1,0
+/docs/search?query=citation&searchType=articles,1,0,1,0
+/docs/search?query=citrix&searchType=articles,1,0,1,0
+/docs/search?query=cloudflare&searchType=articles,1,0,1,0
+/docs/search?query=comparison report&searchType=articles,1,0,1,0
+/docs/search?query=Crete a buyer intent notification&searchType=articles,1,0,1,0
+/docs/search?query=CTA&searchType=articles,1,0,1,0
+/docs/search?query=custom code&searchType=articles,1,0,1,0
+/docs/search?query=data dictionary&searchType=articles,1,0,1,0
+/docs/search?query=data solutions&searchType=articles,1,0,1,0
+/docs/search?query=deadline&searchType=articles,1,0,1,0
+/docs/search?query=delighted&searchType=articles,1,0,1,0
+/docs/search?query=demand base&searchType=articles,1,0,1,0
+/docs/search?query=demandbase&searchType=articles,1,0,1,0
+/docs/search?query=duplicate&searchType=articles,1,0,1,0
+/docs/search?query=emea stats&searchType=articles,1,0,1,0
+/docs/search?query=engagement score&searchType=articles,1,0,1,0
+/docs/search?query=export reviews&searchType=articles,1,0,1,0
+/docs/search?query=Fieldos&searchType=articles,1,0,1,0
+/docs/search?query=filter buyer intent for profile views only&searchType=articles,1,0,1,0
+/docs/search?query=free&searchType=articles,1,0,1,0
+/docs/search?query=g2 2&searchType=articles,1,0,1,0
+/docs/search?query=g2 assets&searchType=articles,1,1,1,0
+/docs/search?query=G2 Buyer Intent&searchType=articles,1,0,1,0
+/docs/search?query=g2 custom questions&searchType=articles,1,0,1,0
+/docs/search?query=g2 deals&searchType=articles,1,0,1,0
+/docs/search?query=G2 Deals&searchType=articles,1,0,1,0
+/docs/search?query=g2 gives&searchType=articles,1,0,1,0
+/docs/search?query=g2 google sheets&searchType=articles,1,0,2,0
+/docs/search?query=g2 grid decay&searchType=articles,1,0,1,0
+/docs/search?query=g2 university&searchType=articles,1,0,1,0
+/docs/search?query=gift cards&searchType=articles,1,0,1,0
+/docs/search?query=google sheets integration&searchType=articles,1,0,1,0
+/docs/search?query=gtm code,1,0,1,0
+/docs/search?query=how do i change my video in th banner &searchType=articles,1,1,2,0
+/docs/search?query=how do i claim&searchType=articles,1,0,1,0
+/docs/search?query=how to change product name&searchType=articles,1,0,1,0
+/docs/search?query=how to get leads&searchType=articles,1,0,1,0
+/docs/search?query=How to include contacts in custom report&searchType=articles,1,0,1,0
+/docs/search?query=how to leave a review&searchType=articles,1,0,1,0
+/docs/search?query=hubspot buyer intent&searchType=articles,1,0,1,0
+/docs/search?query=hubspot duplicate accounts&searchType=articles,1,0,1,0
+/docs/search?query=HUBSPOT LEAD&searchType=articles,1,0,1,0
+/docs/search?query=Hubspot&searchType=articles,1,0,1,0
+/docs/search?query=in app review&searchType=articles,1,0,1,0
+/docs/search?query=incentives&searchType=articles,1,0,2,0
+/docs/search?query=incentivized reviews&searchType=articles,1,0,1,0
+/docs/search?query=influitive&searchType=articles,1,0,1,0
+/docs/search?query=Inmersive&searchType=articles,1,0,1,0
+/docs/search?query=insert a G2 testimonial &searchType=articles,1,0,1,0
+/docs/search?query=intent data&searchType=articles,1,0,1,0
+/docs/search?query=lead form&searchType=articles,1,0,1,0
+/docs/search?query=lead web&searchType=articles,1,0,1,0
+/docs/search?query=Leader in contact center&searchType=articles,1,0,1,0
+/docs/search?query=leads&searchType=articles,1,0,1,0
+/docs/search?query=linkedin matched auidence&searchType=articles,1,0,1,0
+/docs/search?query=linkedin matched&searchType=articles,1,0,1,0
+/docs/search?query=linkedin&searchType=articles,1,0,1,0
+/docs/search?query=market score&searchType=articles,1,0,1,0
+/docs/search?query=marketing reviews&searchType=articles,1,0,1,0
+/docs/search?query=nfhbas&searchType=articles,1,0,1,0
+/docs/search?query=OAUTH&searchType=articles,1,0,1,0
+/docs/search?query=paid promotions&searchType=articles,1,0,1,0
+/docs/search?query=pardot&searchType=articles,1,0,1,0
+/docs/search?query=password&searchType=articles,1,0,1,0
+/docs/search?query=pathfactory&searchType=articles,1,1,1,0
+/docs/search?query=pdf sdk&searchType=articles,1,0,1,0
+/docs/search?query=pending moderation&searchType=articles,1,0,1,0
+/docs/search?query=pricing buyer intent&searchType=articles,1,0,1,0
+/docs/search?query=Privacy resolutions &searchType=articles,1,0,1,0
+/docs/search?query=reply as anonymous&searchType=articles,1,0,1,0
+/docs/search?query=report schedules&searchType=articles,1,0,1,0
+/docs/search?query=report&searchType=articles,1,0,1,0
+/docs/search?query=reports&searchType=articles,1,0,1,0
+/docs/search?query=return funds&searchType=articles,1,0,1,0
+/docs/search?query=reveiws&searchType=articles,1,1,1,0
+/docs/search?query=review automation&searchType=articles,1,0,1,0
+/docs/search?query=review campaign&searchType=articles,1,0,1,0
+/docs/search?query=review generation&searchType=articles,1,0,1,0
+/docs/search?query=review lever&searchType=articles,1,0,1,0
+/docs/search?query=review link&searchType=articles,1,0,1,0
+/docs/search?query=review syndiaction&searchType=articles,1,0,1,0
+/docs/search?query=review syndications&searchType=articles,1,0,2,0
+/docs/search?query=reviews api&searchType=articles,1,1,4,0
+/docs/search?query=reviews in app&searchType=articles,1,0,0,0
+/docs/search?query=reviews landing page&searchType=articles,1,0,1,0
+/docs/search?query=salesforce connector fields&searchType=articles,1,0,2,0
+/docs/search?query=salesforce sync&searchType=articles,1,0,1,0
+/docs/search?query=salesforce&searchType=articles,1,0,1,0
+/docs/search?query=Salesforce&searchType=articles,1,1,1,0
+/docs/search?query=salesloft integration&searchType=articles,1,0,1,0
+/docs/search?query=Semrush&searchType=articles,1,0,1,0
+/docs/search?query=sharing reviews,1,0,1,0
+/docs/search?query=signals&searchType=articles,1,0,1,0
+/docs/search?query=singularly&searchType=articles,1,0,2,0
+/docs/search?query=slack integration&searchType=articles,1,1,1,0
+/docs/search?query=slider&searchType=articles,1,0,1,0
+/docs/search?query=social assets&searchType=articles,1,0,1,0
+/docs/search?query=social places&searchType=articles,1,0,1,0
+/docs/search?query=source of referrals&searchType=articles,1,0,2,0
+/docs/search?query=sponsored content&searchType=articles,1,0,1,0
+/docs/search?query=stack overflow for teams&searchType=articles,1,0,1,0
+/docs/search?query=sttack&searchType=articles,1,0,1,0
+/docs/search?query=tencent cloud&searchType=articles,1,0,2,0
+/docs/search?query=track your prose&searchType=articles,1,0,1,0
+/docs/search?query=trakc your prospect&searchType=articles,1,0,1,0
+/docs/search?query=typ&searchType=articles,1,0,2,0
+/docs/search?query=video demo for g2 in-app review&searchType=articles,1,0,1,0
+/docs/search?query=video reviews&searchType=articles,1,0,1,0
+/docs/search?query=Vision33&searchType=articles,1,0,1,0
+/docs/search?query=what features do i get in free version&searchType=articles,1,0,1,0
+/docs/search?query=when spring 2023 report will be live&searchType=articles,1,0,1,0
+/docs/search?query=where did my reviews come from,1,0,1,0
+/docs/search?query=widgets&searchType=articles,1,0,1,0
+/docs/search?query=zapier&searchType=articles,1,0,1,0
+/docs/search?query=zoho&searchType=articles,1,0,1,0
+/docs/search?query=zoominfo notification&searchType=articles,1,0,1,0
+/docs/track-your-prospects?_x_tr_sl=en&_x_tr_tl=hr&_x_tr_hl=hr&_x_tr_pto=sc,1,2,2,1
+/docs/track-your-prospects?amp;utm_medium=web&amp;utm_campaign=track+your+prospects,1,1,2,0
+/g2/docs/basics-of-salesforce-integration,1,2,12,0
+/g2/docs/basics-of-the-g2-medallia-integration,1,1,2,0
+/g2/docs/campaign-dashboard,1,0,3,0
+/g2/docs/example-list-10-associated-companies-assessing-product-alternatives-recently,1,0,1,0
+/g2/docs/example-list-11-associated-companies-researching-your-product-category-recently,1,0,1,0
+/g2/docs/example-list-12-companies-with-a-buyer-from-a-specific-location,1,1,2,0
+/g2/docs/example-list-9-associated-companies-making-direct-product-comparisons-recently,1,0,1,0
+/g2/docs/example-notification-2-send-emails-to-salesforce-lead-owners-for-g2-buyer-intent-signals,1,0,1,0
+/g2/docs/example-notification-3-send-email-to-customer-success-team-for-g2-reviews-with-low-scores,1,0,1,0
+/g2/docs/example-notification-4-chatter-notification-for-salesforce-account-owners-when-a-g2-comparison-page-is-viewed,1,0,1,0
+/g2/docs/example-report-10-salesforce-accounts-without-g2-reviews,1,0,1,0
+/g2/docs/example-report-3-g2-visiting-organizations-information,1,0,1,0
+/g2/docs/example-report-7-find-mapped-salesforce-accounts-with-many-g2-events,1,0,4,0
+/g2/docs/example-smart-campaign-1-email-campaigns-to-target-specific-g2-buyer-intent-activity,1,0,3,0
+/g2/docs/example-workflow-6-assign-a-customer-profile-tier-based-on-g2-buyer-intent-activity,1,0,2,0
+/g2/docs/g2-bombora-integration,1,1,7,1
+/g2/docs/g2-buyer-intent-data-marketo,1,1,8,0
+/g2/docs/g2-reviews,1,1,3,0
+/g2/docs/hubspot-list-companies-using-products-that-integrate-with-your-product,1,0,2,0
+/g2/docs/insert-a-g2-grid-widget-in-a-marketo-landing-page-template,1,0,1,0
+/g2/docs/linkedin-matched-audiences?mkt_tok=NzE0LVpVRi02ODMAAAGKGUbwz5Ezld46_0ugyfYxHKQadml5gb844KnabOKqxcFvKSbCl0nEw9DKy_-WmslVhnpC1C_ZR7ifFPPloDt-i2rvHNAmI2BS94tK_F4w,1,4,7,0
+/g2/docs/linkedin-matched-audiences?mkt_tok=NzE0LVpVRi02ODMAAAGKGUcNUrM6nEi2YI6dEYXXyXyPOPHbTwria09aDlbaOnoKYWBZOO678L0Oe-BJD8jNwNo1SuN43CnCPHJvKpEA6mIk6vX_bmKlQV7Pq9G5,1,2,3,0
+/g2/docs/linkedin-matched-audiences?mkt_tok=NzE0LVpVRi02ODMAAAGKGUcNUt66tzUoUvjewzSlgMyV1meXCSlZgbUlu7GnDeP82V0nSeE3diNoLs8n3ejHUqdhQycw43I1x5N2duY9IJyHtb7huoEEq50qDaWU,1,1,2,0
+/g2/docs/linkedin-matched-audiences?mkt_tok=NzE0LVpVRi02ODMAAAGKGUIZinwRLfSEsMBwQ3IUsnU80oECPwMsLBmiyC_sKS1FX5cZhVfd_UoiUQr7My1tz6rCNVCqfpwvKC2JSCtQbxs0vue2cCxR6x9KoLZY,1,1,2,0
+/g2/docs/salesforce-dashboards,1,0,1,0
+/g2/docs/salesforce-implementation,1,0,5,0
+/g2/docs/snowflake-reviews-data-dictionary,1,1,3,0
+/proxy_u/en-ru.ru.06a17126-640739ee-9a98eeea-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.0c00e0c2-64065acc-ee002555-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.41d32052-640351e4-8ebf88fa-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.4696fd66-6401a826-14f2e4e1-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.492f94b0-64065f6e-ab101576-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.4d1d8db0-640793e8-4f305edb-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.5f3f2bc3-64103c21-ce2c1955-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.8758aa22-640b686c-badc73f0-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.a0456793-64005515-5c415fa2-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.bcd91f1f-6409d273-64844336-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.d05f257e-64021f9d-f87a3612-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.d242caa5-6411d653-290bd846-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.d6477068-640fc60c-3502bd19-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.e0d190f0-64011519-65b54dcf-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.e1ee22f0-6401aeac-72afc187-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.e2673ba7-6408aed5-fa3cc729-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/proxy_u/en-ru.ru.e8442bcd-640cfa84-1ae91aff-74722d776562/https/documentation.g2.com/docs/get-started-with-g2,1,1,1,0
+/review data dictionary.html,1,0,0,0
+/search?q=cache:nZaDqKsVtnEJ:https://documentation.g2.com/&cd=2&hl=en&ct=clnk&gl=in,1,1,1,1
+,"7,355","9,045","23,203","1,291"
+
+Day Index,Users
+3/1/23,305
+3/2/23,321
+3/3/23,215
+3/4/23,34
+3/5/23,55
+3/6/23,316
+3/7/23,281
+3/8/23,279
+3/9/23,289
+3/10/23,184
+3/11/23,34
+3/12/23,37
+3/13/23,230
+3/14/23,289
+3/15/23,270
+3/16/23,284
+3/17/23,186
+3/18/23,28
+3/19/23,41
+3/20/23,288
+3/21/23,294
+3/22/23,305
+3/23/23,255
+3/24/23,202
+3/25/23,20
+3/26/23,39
+3/27/23,265
+3/28/23,321
+3/29/23,299
+3/30/23,323
+3/31/23,238
+,"6,527"
