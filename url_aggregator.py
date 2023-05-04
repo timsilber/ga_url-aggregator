@@ -63,17 +63,31 @@ def dict_to_sorted_csv(dict, columns):
 
 def call_API():
     CATEGORY_KEY = 'b801d463-4046-4873-8d80-d61e5577954c'
-    url = "https://apihub.document360.io/v2/categories/" + CATEGORY_KEY
+    url = "https://apihub.document360.io/v2/Categories/" + CATEGORY_KEY
 
     payload={}
     headers = {'api_token': os.getenv('PROJECT_API_KEY')}
-
-    response = requests.request("GET", url, headers=headers, data=payload)
     
-    response_json = response.json()
-    integrations_IA = response_json["data"]
+    max_retries = 10
+    retry_delay = 6
+
+    for i in range(max_retries):
+        try:
+            response = requests.request("GET", url, headers=headers, data=payload)
+            response.raise_for_status()
+            response_json = response.json()
+            integrations_IA = response_json["data"]
+        except requests.exceptions.HTTPError as error:
+            if error.response.status_code == 429:
+                print(f'Server is overloaded. Waiting for {retry_delay} seconds...')
+                time.sleep(retry_delay)
+            else:
+                print(error.response)
+                print(f'Other API error. Waiting for {retry_delay} seconds...')
+                time.sleep(retry_delay)
 
     return integrations_IA
+
 
 def parse_IA(data, dict, flattened = {}):
 
@@ -127,7 +141,10 @@ def print_top_fives(csv_dict, integrations_dict):
 
     sort_keys = get_sort_keys(csv_dict)
     sort_keys.remove('')
-    sort_keys.remove('about-g2-integrations')
+    try:
+        sort_keys.remove('about-g2-integrations')
+    except:
+        return
 
     unwanted_articles = ['', 'about-g2-integrations']
 
