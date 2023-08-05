@@ -11,7 +11,7 @@ load_dotenv() #make sure you have python-dotenv installed, your .env is in the r
 
 def csv_to_dataframe(csv_path, columns):
     #choose column from Analytics CSV based on user input and turn into dictionary
-    csv_dict =  pd.read_csv(csv_path, header= 5, usecols=columns).to_dict(orient='split')
+    csv_dict =  pd.read_csv(csv_path, header= 9, usecols=columns).to_dict(orient='split')
     csv_data = csv_dict['data']
     
     return csv_data
@@ -141,10 +141,10 @@ def print_top_fives(csv_dict, integrations_dict):
 
     sort_keys = get_sort_keys(csv_dict)
     sort_keys.remove('')
-    try:
-        sort_keys.remove('about-g2-integrations')
-    except:
-        return
+    # try:
+    #     sort_keys.remove('about-g2-integrations')
+    # except:
+    #     return
 
     unwanted_articles = ['', 'about-g2-integrations']
 
@@ -170,7 +170,7 @@ if __name__ == "__main__":
     #get metric to sort articles
     metric = input("\nWhat metric do you want to sort by? \n\n    ")
     metric = metric[0].upper() + metric[1:].lower() # handle case-sensitive user input
-    col_names = ['Page', metric]
+    col_names = ['Page path and screen class', metric]
     # col_names = ['Page', 'Sessions']
 
     #sort aggregated article data and export to CSV
