@@ -103,7 +103,7 @@ def write_dict_to_csv(data, filename):
 
 def aggregate_sessions(input_file):
     # Load the CSV file, skipping the initial metadata lines
-    data = pd.read_csv(input_file, skiprows=10)
+    data = pd.read_csv(input_file, skiprows=9)
 
     # Extract the article slug from the URL
     data['article_slug'] = data['Page path and screen class'].apply(lambda x: x.split('/')[-1])
