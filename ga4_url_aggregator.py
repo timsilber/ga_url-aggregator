@@ -4,6 +4,7 @@ import os
 from dotenv import load_dotenv
 import requests
 import csv
+import time 
 
 load_dotenv() #make sure you have python-dotenv installed, your .env is in the root directory and has PROJECT_API_KEY defined
 def call_API():
